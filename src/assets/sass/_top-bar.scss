@@ -1,0 +1,17 @@
+.top-bar {
+    height: 67px;
+    z-index: 51;
+    @apply flex items-center relative border-b border-theme-5;
+}
+.account-label {
+    height: fit-content;
+    background: aqua;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.account-label span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+}

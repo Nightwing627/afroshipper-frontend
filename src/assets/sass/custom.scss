@@ -1,0 +1,69 @@
+a {
+  cursor: pointer !important;
+}
+.multiselect__tag {
+  background-color: #1c3faa !important;
+  margin-bottom: 1px;
+}
+.multiselect__tag-icon:after {
+  color: #fff;
+}
+.multiselect__content-wrapper {
+  z-index: 1000;
+}
+.font-cursive {
+  font-family: cursive !important;
+}
+.dz-image {
+  display: flex !important;
+  align-items: center;
+}
+.dz-image img {
+  height: auto !important;
+  object-position: center !important;
+}
+.status-toggle {
+  transition: all 0.3s;
+}
+.status-toggle:hover {
+  color: #000 !important;
+}
+.logo {
+  width: 200px;
+}
+.tail-select .select-dropdown {
+  z-index: 100;
+}
+.button {
+  transition: all 0.3s;
+}
+.button:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5),
+    0 4px 6px -2px rgba(0, 0, 0, 0.5);
+}
+.invoice-card {
+  transition: all 0.3s;
+}
+.invoice-card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5),
+    0 4px 6px -2px rgba(0, 0, 0, 0.5);
+}
+.invoice-card h2 {
+  transition: all 0.3s;
+}
+.invoice-card h2:hover {
+  font-weight: 700;
+}
+html.dark body .multiselect__tags,
+html.dark body .multiselect__input,
+html.dark body .multiselect__single,
+html.dark body .multiselect__content-wrapper {
+  background: rgba(35, 42, 59, var(--bg-opacity));
+  color: white;
+}
+html.dark body .multiselect__select {
+  border-color: #e2e8f0 !important;
+}
+html.dark body .multiselect__select:before {
+  display: none !important;
+}

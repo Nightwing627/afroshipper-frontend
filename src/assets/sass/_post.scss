@@ -1,0 +1,22 @@
+.post {
+    .post__tabs {
+        a {
+            @apply border-b-0;
+            &.active {
+                @apply bg-white text-theme-1;
+            }
+        }
+    }
+}
+
+.dark {
+    .post {
+        .post__tabs {
+            a {
+                &.active {
+                    @apply bg-dark-3 text-gray-300;
+                }
+            }
+        }
+    }
+}

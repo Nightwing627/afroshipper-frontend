@@ -1,0 +1,16 @@
+.accordion {
+    .accordion__pane.active .accordion__pane__toggle {
+        @apply text-theme-1;
+    }
+    .accordion__pane:not(.active) .accordion__pane__content {
+        @apply hidden;
+    }
+}
+
+.dark {
+    .accordion {
+        .accordion__pane.active .accordion__pane__toggle {
+            @apply text-theme-10;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+import Vue from "vue";
+import "./Highlight";
+import "./LineChart";
+import "./DonutChart";
+import "./BarChart";
+import "./PieChart";
+import "./GoogleMapLoader";
+import "./LitePicker";
+import "./Tippy";
+import "./TippyContent";
+import "./TailSelect";
+import "./LoadingIcon";
+
+Vue.component("Highlight", () => import("./Highlight"));
+Vue.component("LineChart", () => import("./LineChart"));
+Vue.component("DonutChart", () => import("./DonutChart"));
+Vue.component("BarChart", () => import("./BarChart"));
+Vue.component("PieChart", () => import("./PieChart"));
+Vue.component("GoogleMapLoader", () => import("./GoogleMapLoader"));
+Vue.component("LitePicker", () => import("./LitePicker"));
+Vue.component("Tippy", () => import("./Tippy"));
+Vue.component("TippyContent", () => import("./TippyContent"));
+Vue.component("TailSelect", () => import("./TailSelect"));
+Vue.component("LoadingIcon", () => import("./LoadingIcon"));

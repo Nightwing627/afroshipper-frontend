@@ -1,0 +1,9 @@
+.zoom-overlay {
+  background: #ffffffc9;
+}
+
+.dark {
+  .zoom-overlay {
+    @apply bg-dark-1 bg-opacity-75;
+  }
+}
